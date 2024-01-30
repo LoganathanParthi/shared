@@ -29,7 +29,7 @@ def call() {
             stage('Docker Build Images') {
                 steps {
                     script {
-                        sh 'docker build -t LoganathanParthi/multi:v3 .'
+                        sh 'docker build -t loganathanparthi/multi:v3 .'
                         sh 'docker images'
                         sh 'docker ps'
                     }
